@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8065ad8ffcdb4a54a254a65b2ddb0c85 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8065ad8ffcdb4a54a254a65b2ddb0c85" ></div>
+        
+</body>
+<script>    
+    
+            var map_8065ad8ffcdb4a54a254a65b2ddb0c85 = L.map(
+                "map_8065ad8ffcdb4a54a254a65b2ddb0c85",
+                {
+                    center: [18.94, -70.28],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    titles: "Casos de Covid en Republica Dominicana",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7dd52d7c742f40bfa0b711410a0f06da = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8065ad8ffcdb4a54a254a65b2ddb0c85);
+        
+    
+            var marker_bfcca2e183e74c04a3a7ef660e63295f = L.marker(
+                [18.48, -69.87],
+                {}
+            ).addTo(map_8065ad8ffcdb4a54a254a65b2ddb0c85);
+        
+    
+            var icon_c7bde0ab94d54ad59932a1998affca49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bfcca2e183e74c04a3a7ef660e63295f.setIcon(icon_c7bde0ab94d54ad59932a1998affca49);
+        
+    
+        var popup_40a43560a3364fdb89dd7d08d1fa6aa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c6de2a6b3dd44c7be0f454874bdfaa3 = $(`<div id="html_2c6de2a6b3dd44c7be0f454874bdfaa3" style="width: 100.0%; height: 100.0%;">Chakyll Calderon</div>`)[0];
+            popup_40a43560a3364fdb89dd7d08d1fa6aa1.setContent(html_2c6de2a6b3dd44c7be0f454874bdfaa3);
+        
+
+        marker_bfcca2e183e74c04a3a7ef660e63295f.bindPopup(popup_40a43560a3364fdb89dd7d08d1fa6aa1)
+        ;
+
+        
+    
+    
+            marker_bfcca2e183e74c04a3a7ef660e63295f.bindTooltip(
+                `<div>
+                     Click para ver el paciente
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
