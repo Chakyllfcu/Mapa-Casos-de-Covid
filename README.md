@@ -23,4 +23,4 @@ Lng (longitud)
 Comentario(opcional)
 
 
-Agregue la opción exportar, donde muestre un mapa con todos los casos de COVID registrado en su programa.
+Agregue la opción exportar, donde muestro un mapa con todos los casos de COVID registrado en su programa.
