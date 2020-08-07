@@ -1,4 +1,4 @@
-# CRUD para registrar casos de COVID-19.
+# Programa para registrar casos de COVID-19.
 
 ![Covid 2](https://user-images.githubusercontent.com/69004844/89597526-6dc2dd00-d828-11ea-8293-5c33861ad178.png)
 ![Covid Mapa](https://user-images.githubusercontent.com/69004844/89597551-7f0be980-d828-11ea-8395-0f007ee92e8b.png)
