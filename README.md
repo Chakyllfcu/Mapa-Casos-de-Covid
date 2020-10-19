@@ -4,7 +4,7 @@
 ![Covid Mapa](https://user-images.githubusercontent.com/69004844/89597551-7f0be980-d828-11ea-8395-0f007ee92e8b.png)
 
 
-Para registrar un caso debemos registrar los siguientes campos:
+Para registrar un caso debemos insertar los siguientes campos:
 
 Nombre
 
